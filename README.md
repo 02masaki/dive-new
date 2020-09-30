@@ -36,17 +36,19 @@ Things you may want to cover:
 ### Association
 - has_many :logs
 
-## logs　テーブル
+## logs テーブル
 
 | Column       | Type       | Options                        |
 | ------------ | ---------- | ------------------------------ |
 | suit         | string     | null: false                    |
 | min          | integer    | null: false                    |
 | depth        | integer    | null: false                    |
-| depth        | integer    | null: false                    |
 | place        | text       | null: false                    |
 | transparency | integer    | null: false                    |
 | temperature  | integer    | null: false                    |
+| year         | integer    | null: false                    |
+| month        | integer    | null: false                    |
+| date         | integer    | null: false                    |
 | user         | references | null: false, foreign_key: true |
 
 ## Association

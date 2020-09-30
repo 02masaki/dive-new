@@ -3,6 +3,8 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
+         
+  has_many :logs
 
   EMAIL_VAL = /\A\S+@\S+\.\S+\z/
   PASS_VAL = /\A[a-zA-Z0-9]+\z/
