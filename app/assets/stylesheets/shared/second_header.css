@@ -1,0 +1,22 @@
+.second-header {
+  width: 100vw;
+  min-width: 800px;
+  height: 100px;
+  background-color: skyblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-title-name {
+ font-size: 30px;
+ color: white;
+ margin-left: 30px;
+}
+
+.login-btn {
+font-size: 15px;
+text-decoration: none;
+color: wheat;
+margin-right: 30px;
+}

@@ -1,0 +1,14 @@
+<header class='second-header'>
+  <div class='second-title'>
+    <p class='second-title-name'>Dive new</p>
+  </div>
+  <div class='second-sub'>
+    <div class='second-menu'>
+      <% if current_page?(new_user_registration_path)%>
+        <%= link_to "ログイン", new_user_session_path, {class:'login-btn'}%>
+      <% else %>
+        <%= link_to "新規登録", new_user_registration_path, {class: 'login-btn'}%>
+      <% end %>
+    </div>
+  </div>
+</header>
