@@ -1,13 +1,15 @@
 class Log < ApplicationRecord
   belongs_to :user
 
+  NUM_VAL = /\A[0-9]+\z/
   with_options presence: true do
     validates :suit
-    validates :min
-    validates :depth
     validates :place
-    validates :transparency
-    validates :temperature
+    validates :min, format: {with: NUM_VAL}
+    validates :depth, format: {with: NUM_VAL}
+    validates :transparency, format: {with: NUM_VAL}
+    validates :temperature, format: {with: NUM_VAL}
     validates :date
+    validates :impressions
   end
 end

@@ -19,7 +19,8 @@ ActiveRecord::Schema.define(version: 2020_09_30_025525) do
     t.text "place", null: false
     t.integer "transparency", null: false
     t.integer "temperature", null: false
-    t.integer "date", null: false
+    t.date "date", null: false
+    t.text "impressions", null: false
     t.bigint "user_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false

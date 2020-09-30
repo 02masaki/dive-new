@@ -11,13 +11,17 @@ class LogsController < ApplicationController
   
   def create
     @log = Log.create(log_params)
-    @logs = Log.all
+    if @log.save
+      redirect_to root_path
+    else
+      render :new
+    end
   end
 
   private
 
   def log_params
-    params.require(:log).permit(:date, :depth, :min, :place, :suit, :transparency, :temperature).merge(user: current_user.id)
+    params.require(:log).permit(:suit, :min, :depth, :place, :transparency, :temperature, :date, :impressions).merge(user_id: current_user.id)
   end
 
   def move_to_index

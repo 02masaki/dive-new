@@ -69,3 +69,18 @@
   -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
   box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
 }
+
+.impressions-default {
+  border: 0;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: black;
+  border: solid 1px #ccc;
+  margin: 0 0 20px;
+  width: 300px;
+  -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+  -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+  overflow: scroll;
+}
