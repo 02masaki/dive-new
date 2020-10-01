@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.new-wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: calc(100vh - 190px);
+  background-color: white;
+  align-items: center;
+}
+
+.informations {
+  background-color: #ccc;
+  border: 1px white solid;
+  height: 500px;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+}
+
+.information {
+  font-size: 20px;
+}
+
+.main-default {
+  border:0;
+  padding:10px;
+  font-size:20px;
+  font-family:Arial, sans-serif;
+  color: black;
+  border:solid 1px #ccc;
+  margin:0 0 20px;
+  width:300px;
+  -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+  -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+  background-color: wheat;
+}
+
+.num-default {
+  border: 0;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: black;
+  border: solid 1px #ccc;
+  margin: 0 0 20px;
+  width: 100px;
+  -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+  -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+  background-color: wheat;
+}
+
+.date-default {
+  border: 0;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: black;
+  border: solid 1px #ccc;
+  margin: 0 0 20px;
+  width: 100px;
+  -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+  -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+  background-color: wheat;
+}
+
+.impressions-default {
+  border: 0;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+  color: black;
+  border: solid 1px #ccc;
+  margin: 0 0 20px;
+  width: 300px;
+  -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+  -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+  overflow: scroll;
+  background-color: wheat;
+}

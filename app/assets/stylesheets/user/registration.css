@@ -9,9 +9,10 @@
   flex-direction: column;
   width: 100vw;
   height: calc(100vh - 190px);
-  background-color: burlywood;
+  background-color: white;
   align-items: center;
 }
+
 
 .form-groups {
   background-color: #ccc;
@@ -29,7 +30,7 @@
   padding:10px;
   font-size:1.3em;
   font-family:Arial, sans-serif;
-  color:#aaa;
+  color:black;
   border:solid 1px #ccc;
   margin:0 0 20px;
   width:300px;

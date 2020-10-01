@@ -1,0 +1,75 @@
+<%= render 'shared/header'%>
+
+<div class='new-wrap'>
+  <h1 class='new-log'>新規情報入力</h1>
+  <div class='informations'>
+
+    
+    <%= form_with model: @log, url: logs_path, local: true do |f|%>
+    <%= render 'shared/error_messages', model: f.object %>
+      <div class='information'>
+        <div class='info-text'>
+          <label class='normal-form'>日付</label>
+        </div>
+        <%= f.date_select :date, {start_year: 2000, end_year: 2021}, class: 'date-default'%>
+      </div>
+
+      <div class='information'>
+        <div class='info-text'>
+          <label class='normal-form'>最大深度は何mですか（半角数字）</label>
+        </div>
+        <p><%= f.number_field :depth, class: 'num-default', min: 1, max: 40 %>m</p>
+      </div>
+
+      <div class='information'>
+        <div class='info-text'>
+          <label class='normal-form'>何分間潜りましたか（半角数字）</label>
+        </div>
+        <p><%= f.number_field :min, class: 'num-default', min: 1, max: 100 %>分</p>
+      </div>
+
+      <div class='information'>
+        <div class='info-text'>
+          <label class='normal-form'>場所はどこですか</label>
+        </div>
+        <%= f.text_field :place, class: 'main-default'%>
+      </div>
+
+      <div class='information'>
+        <div class='info-text'>
+          <label class='normal-form'>透視度は何mですか（半角数字）</label>
+        </div>
+        <p><%= f.number_field :transparency, class: 'num-default', min: 1, max: 50 %>m</p>
+      </div>
+
+      <div class='information'>
+        <div class='info-text'>
+          <label class='normal-form'>水温は何度ですか（半角数字）</label>
+        </div>
+        <p><%= f.number_field :temperature, class: 'num-default', min: 1, max: 40 %>℃</p>
+      </div>
+
+      <div class='information'>
+        <div class='info-text'>
+          <label class='normal-form'>着用したスーツを教えてください</label>
+        </div>
+        <p><%= f.text_field :suit, class: 'main-default'%></p>
+      </div>
+
+      <div class='information'>
+        <div class='info-text'>
+          <label class='normal-form'>感想</label>
+        </div>
+        <p><%= f.text_area :impressions, class: 'impressions-default'%></p>
+      </div>
+
+      <div class='register-btn'>
+        <%= f.submit "送信", class:"register-red-btn" %>
+      </div>
+    <% end %>
+    
+
+  </div>
+</div>
+
+<%= render 'shared/second-footer'%>
