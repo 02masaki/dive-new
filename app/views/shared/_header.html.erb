@@ -1,20 +1,9 @@
 <header class='main-header'>
   <div class='main-title'>
-    <p class='main-title-name'>Dive new</p>
+    <%= link_to "Dive new", logs_path, class:'main-title-name'%>
   </div>
   <div class='main-sub'>
     <ul class='main-menus'>
-    <% if current_page?(new_log_path)%>
-      <li class='main-menu'>
-        <%= link_to current_user.nickname, '#', class:'out-btn' %>
-      </li>
-      <li class='main-menu'>
-        <%= link_to "TOPへ戻る", logs_path, class:'out-btn'%>
-      </li>
-      <li class='main-menu'>
-        <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'out-btn'%>
-      </li>
-    <% else %>
       <li class='main-menu'>
         <%= link_to current_user.nickname, '#', class:'out-btn' %>
       </li>
@@ -24,7 +13,6 @@
       <li class='main-menu'>
         <%= link_to "ログアウト", destroy_user_session_path, method: :delete, class: 'out-btn'%>
       </li>
-    <% end %>
     </ul>
   </div>
 </header>
