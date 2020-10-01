@@ -1,5 +1,6 @@
 class LogsController < ApplicationController
   before_action :move_to_index
+  before_action :set_logs, only:[:edit, :update, :destroy]
 
   def index
     @logs = current_user.logs.order("created_at DESC")
@@ -23,6 +24,25 @@ class LogsController < ApplicationController
     end
   end
 
+  def edit
+  end
+
+  def update
+    if @log.update(log_params)
+      redirect_to root_path
+    else
+      render :edit
+    end
+  end
+
+  def destroy
+    if @log.destroy
+      redirect_to root_path
+    else
+      render :edit
+    end
+  end
+
   private
 
   def log_params
@@ -33,6 +53,10 @@ class LogsController < ApplicationController
     unless user_signed_in?
       redirect_to "session#new"
     end
+  end
+
+  def set_logs
+    @log = Log.find(params[:id])
   end
 
 end
