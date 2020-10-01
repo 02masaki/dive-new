@@ -1,2 +1,22 @@
 <%= render 'shared/header'%>
+
+<div class='main-wrap'>
+
+  <div class='first-view'>
+  </div>
+
+  <div class='second-view'>
+    <ul class='second-view-lists'>
+
+      <%= @logs.each do |log|%>
+        <li class='second-view-list'>
+
+        </li>
+      <% end %>
+      
+    </ul>
+  </div>
+
+</div>
+
 <%= render 'shared/second-footer'%>
