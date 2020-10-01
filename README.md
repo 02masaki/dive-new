@@ -46,9 +46,8 @@ Things you may want to cover:
 | place        | text       | null: false                    |
 | transparency | integer    | null: false                    |
 | temperature  | integer    | null: false                    |
-| year         | integer    | null: false                    |
-| month        | integer    | null: false                    |
-| date         | integer    | null: false                    |
+| date         | date       | null: false                    |
+| impression   | text       | null: false                    |
 | user         | references | null: false, foreign_key: true |
 
 ## Association
