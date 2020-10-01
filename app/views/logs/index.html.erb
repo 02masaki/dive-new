@@ -8,26 +8,31 @@
 
   <div class='second-view'>
     <ul class='second-view-lists'>
-
-      <% @logs.each do |log|%>
-        <li class='second-view-list'>
-          <div class='list-header'>
-            <p class='list-obj'>日付:<%= log.date %></p>
-            <p class='list-obj'>場所:<%= log.place %></p>
-            <%= link_to '編集', '#', class:'edit-btn'%>
-          </div>
-          <div class='list-main'>
-            <p class='list-title'>情報</p>
-            <div class='main-left'>
-              <p class='list-left'>最大<%= log.depth %>mまで<%= log.min %>分間潜っていました</p>
-              <p class='list-left'>透視度は<%= log.transparency %>mくらいで水温は<%= log.temperature %>℃でした</p>
-              <p class='list-left'>ちなみに<%= log.suit %>スーツを着用しました</p>
+      <% if @logs.present?%>
+        <% @logs.each do |log|%>
+          <li class='second-view-list'>
+            <div class='list-header'>
+              <p class='list-obj'>日付:<%= log.date %></p>
+              <p class='list-obj'>場所:<%= log.place %></p>
+              <%= link_to '編集', '#', class:'edit-btn'%>
             </div>
-            <p class='list-title'>感想</p>
-            <div class='main-right'>
-              <p class='list-right'><%= log.impressions %></p>
+            <div class='list-main'>
+              <p class='list-title'>情報</p>
+              <div class='main-left'>
+                <p class='list-left'>最大<%= log.depth %>mまで<%= log.min %>分間潜っていました</p>
+                <p class='list-left'>透視度は<%= log.transparency %>mくらいで水温は<%= log.temperature %>℃でした</p>
+                <p class='list-left'>ちなみに<%= log.suit %>スーツを着用しました</p>
+              </div>
+              <p class='list-title'>感想</p>
+              <div class='main-right'>
+                <p class='list-right'><%= log.impressions %></p>
+              </div>
             </div>
-          </div>
+          </li>
+        <% end %>
+      <% else %>
+        <li class='false-view-list'>
+          <p class='false-list'>まだデータが存在しません存在しません<br>安全なダイビングを実施し、データを入力しましょう</p>
         </li>
       <% end %>
 
