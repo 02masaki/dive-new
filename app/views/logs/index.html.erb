@@ -15,6 +15,7 @@
               <p class='list-obj'>日付:<%= log.date %></p>
               <p class='list-obj'>場所:<%= log.place %></p>
               <%= link_to '編集', edit_log_path(log.id), class:'edit-btn'%>
+              <%= link_to '削除', log, method: :delete, data: { confirm: "削除して大丈夫ですか？" }, class:'edit-btn' %>
             </div>
             <div class='list-main'>
               <p class='list-title'>情報</p>
