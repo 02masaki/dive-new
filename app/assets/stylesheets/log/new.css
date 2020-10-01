@@ -40,6 +40,7 @@
   -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
   -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
   box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+  background-color: wheat;
 }
 
 .num-default {
@@ -54,6 +55,7 @@
   -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
   -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
   box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+  background-color: wheat;
 }
 
 .date-default {
@@ -68,6 +70,7 @@
   -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
   -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
   box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+  background-color: wheat;
 }
 
 .impressions-default {
@@ -83,4 +86,5 @@
   -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
   box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
   overflow: scroll;
+  background-color: wheat;
 }
