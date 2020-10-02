@@ -13,6 +13,9 @@
   align-items: center;
 }
 
+.login-name {
+  margin-top: 20px;
+}
 
 
 .login-groups {
@@ -25,6 +28,7 @@
   align-items: center;
   overflow: scroll;
   margin-top: 50px;
+  padding: 30px;
 }
 
 .login-default {
@@ -51,4 +55,9 @@
   font-weight:bold;
   color:#333;
   cursor:pointer; 
+}
+
+.login-flash-message {
+  text-align: center;
+  color: red;
 }
