@@ -83,6 +83,6 @@ Things you may want to cover:
  ## 実装予定の機能
 
  ## データベース設計
-<img width="300" alt="ER図" src="https://gyazo.com/c74547f0e86d4d0464d361919fafe1f7">
+<img width="300" alt="ER図" src="https://i.gyazo.com/c74547f0e86d4d0464d361919fafe1f7.png">
 
 ## ローカルでの動作方法
