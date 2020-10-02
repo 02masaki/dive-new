@@ -1,0 +1,64 @@
+<mxfile host="5d0c649a-76f2-454f-a3b6-508a3d6e25a1" modified="2020-10-02T07:18:34.047Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.48.1 Chrome/78.0.3904.130 Electron/7.3.2 Safari/537.36" etag="BxB-vuvryyjXTeP2ixfx" version="13.1.3">
+    <diagram id="6hGFLwfOUW9BJ-s0fimq" name="Page-1">
+        <mxGraphModel dx="728" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;entryX=0.319;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;targetPerimeterSpacing=10;strokeWidth=2;" edge="1" parent="1" source="2" target="4">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="390" y="320" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="300" y="323"/>
+                            <mxPoint x="300" y="323"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="240" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="240" width="160" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="user" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=27;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="240" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="log" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=27;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="240" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="&lt;ul style=&quot;font-size: 18px;&quot;&gt;&lt;li style=&quot;font-size: 18px;&quot;&gt;nickname&lt;/li&gt;&lt;li style=&quot;font-size: 18px;&quot;&gt;email&lt;/li&gt;&lt;li style=&quot;font-size: 18px;&quot;&gt;password&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="280" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;ul style=&quot;font-size: 18px&quot;&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;suit&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;min&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;depth&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;transparency&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;temperature&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;place&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;impressions&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;user_id&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="280" width="160" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=ERone;startFill=0;endArrow=ERmany;endFill=0;entryX=0.319;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;targetPerimeterSpacing=10;strokeWidth=2;" edge="1" source="22" target="23" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="400" y="330" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="310" y="663"/>
+                            <mxPoint x="310" y="663"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="570" width="160" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="rounded=0;whiteSpace=wrap;html=1;direction=south;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="580" width="160" height="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="user" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=27;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="570" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="log" style="text;html=1;strokeColor=#666666;fillColor=#f5f5f5;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#333333;fontSize=27;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="580" width="160" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="&lt;ul style=&quot;font-size: 18px;&quot;&gt;&lt;li style=&quot;font-size: 18px;&quot;&gt;nickname&lt;/li&gt;&lt;li style=&quot;font-size: 18px;&quot;&gt;email&lt;/li&gt;&lt;li style=&quot;font-size: 18px;&quot;&gt;password&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fillColor=#f8cecc;strokeColor=#b85450;fontColor=#000000;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="610" width="160" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="&lt;ul style=&quot;font-size: 18px&quot;&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;suit&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;min&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;depth&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;transparency&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;temperature&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;place&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;impressions&lt;/li&gt;&lt;li style=&quot;font-size: 18px&quot;&gt;user_id&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=18;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="620" width="160" height="220" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
