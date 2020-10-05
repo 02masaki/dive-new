@@ -72,6 +72,7 @@ Things you may want to cover:
 ## 目指した課題解決
   自分の趣味であるスキューバダイビングの記録は紙に記入することが多く、ノート類を持ち運ばなければなりません。スキューバダイビングは器材が多く持ち運びが大変であるため、少しでも荷物を軽くしたいという気持ちから、インターネットに接続すればどこでも使えるアプリケーションを作成すればいいのではないかと考え、こちらのアプリケーションを作成しま
   した。
+
 ## 要件
 |優先順位（高：3、中：2、低：1)|機能	          |目的	                   |詳細	               |ストーリー(ユースケース)	            |見積もり   ｜
 |-------------------------|----------------|------------------------|--------------------|----------------------------------|----------|
@@ -84,27 +85,24 @@ Things you may want to cover:
 ## 実装した機能についてのGIFと説明
 ### ログイン機能
 登録したメールアドレスとパスワードを入力することでログインできる
-<img width="500" alt="ログイン機能" src="app/assets/images/login.gif">
+<img width="500" alt="ログイン機能" src="https://i.gyazo.com/4eaadb3f7d5ab3c9373a8747f756a5a1.png">
 
 ### 新規登録機能
 ニックネームとメールアドレス、パスワードを入力することで登録できる
-<img width="500" alt="ユーザー登録機能" src="https://i.gyazo.com/d659babc1ec633a1212c56e962d20bf5.mp4">
+<img width="500" alt="ユーザー登録機能" src="https://i.gyazo.com/0c70e3a967ba02106a8be8055d5048c6.png">
 
 ### 新規記録作成機能
 各項目を埋めることで保存できる。また、記録を保存するごとにトップページで潜った回数が表示される
-<img width="500" alt="記録作成機能" src="https://i.gyazo.com/3545bd3b52dee3f51b45509ed8232207.mp4">
+<img width="500" alt="記録作成機能" src="https://i.gyazo.com/27556a82c2597752d77fdf527cfd0109.png">
 
 ### 記録編集機能
 トップページで編集ボタンをクリックし、編集ページが開き変更事項を記載することで情報を変更できる
-<img width="500" alt="記録編集機能" src="https://i.gyazo.com/518a82f03f4930bdc6a536d507c168a3.mp4">
+<img width="500" alt="記録編集機能" src="https://i.gyazo.com/714cbe61eb28c9716a376493b33b1335.png">
 
 ### 記録削除機能
 トップページで削除ボタンをクリックすると、該当の記録が削除できる
-<img width="500" alt="記録削除機能" src="https://i.gyazo.com/7420a4ebbee9e277e55d85e66af76889.mp4">
-
-### ログアウト機能
-ログアウトをクリックするとログアウトし、ログイン画面に遷移する
-<img width="500" alt="ログアウト機能" src="https://i.gyazo.com/968c197476d2f027b7a25b82e89421ff.mp4">
+<img width="500" alt="記録削除機能" src="https://i.gyazo.com/63ab8fd146f52f01c5d4ac6edea4d5d5.png">
+<img width="500" alt="記録削除機能" src="https://i.gyazo.com/dc74ed5cbfcc385c35d0d66130f1d173.png">
 
 ## 実装予定の機能
 - logs検索機能
