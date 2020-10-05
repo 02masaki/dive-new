@@ -84,7 +84,7 @@ Things you may want to cover:
 ## 実装した機能についてのGIFと説明
 ### ログイン機能
 登録したメールアドレスとパスワードを入力することでログインできる
-<img width="500" alt="ログイン機能" src="app/assets/images/ログイン機能.mp4">
+<img width="500" alt="ログイン機能" src="app/assets/images/ログイン機能.gif">
 
 ### 新規登録機能
 ニックネームとメールアドレス、パスワードを入力することで登録できる
