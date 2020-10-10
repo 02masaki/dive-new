@@ -1,5 +1,6 @@
 class Log < ApplicationRecord
   belongs_to :user
+  has_one_attached :image
 
   NUM_VAL = /\A[0-9]+\z/
   with_options presence: true do
