@@ -88,3 +88,7 @@
   overflow: scroll;
   background-color: wheat;
 }
+
+.image-default {
+  margin: 10px;
+}
