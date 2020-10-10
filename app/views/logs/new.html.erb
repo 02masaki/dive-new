@@ -68,10 +68,11 @@
           <label class='normal-form'>画像</label>
         </div>
         <p><%= f.file_field :image, class:'image-default'%></p>
+        <p class='image-warning'>※ファイル形式によっては表示ができない場合があります</p>
       </div>
 
       <div class='register-btn'>
-        <%= f.submit "送信", class:"register-red-btn" %>
+        <%= f.submit "送信", class:"send-red-btn" %>
       </div>
     <% end %>
     
