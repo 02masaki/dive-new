@@ -46,7 +46,7 @@ class LogsController < ApplicationController
   private
 
   def log_params
-    params.require(:log).permit(:suit, :min, :depth, :place, :transparency, :temperature, :date, :impressions).merge(user_id: current_user.id)
+    params.require(:log).permit(:suit, :min, :depth, :place, :transparency, :temperature, :date, :impressions, :image).merge(user_id: current_user.id)
   end
 
   def move_to_index
